@@ -18,5 +18,5 @@ public class Message
         this._text = text;
     }
 
-    public string Render => $"\t {_title} \n\n  {_text}";
+    public string Render() => $"\t {_title} \n\n  {_text}";
 }
