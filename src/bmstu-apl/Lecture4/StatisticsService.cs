@@ -12,6 +12,9 @@ public class StatisticsService
     public double CalculateMedianValue()
     {
         var data = _dataDataStorage.GetAllData();
+
+        if (data.Count == 0)
+            throw new Exception("No data");
         
         data.Sort();
         var middleIndex = data.Count / 2;
@@ -23,6 +26,8 @@ public class StatisticsService
 
     public void AddNewStatisticsValue(double newValue)
     {
+        // calculation
+        
         _dataDataStorage.AddData(newValue);
     }
 }
