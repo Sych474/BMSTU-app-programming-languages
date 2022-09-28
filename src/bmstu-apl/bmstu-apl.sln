@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture4Tests", "Lecture4Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveDemoTests", "LiveDemoTests\LiveDemoTests.csproj", "{C3237C34-50BC-4B04-9960-9F85B7EC96A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture5", "Lecture5\Lecture5.csproj", "{DD96313D-D274-49D1-9263-8533ADB28204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{C3237C34-50BC-4B04-9960-9F85B7EC96A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3237C34-50BC-4B04-9960-9F85B7EC96A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3237C34-50BC-4B04-9960-9F85B7EC96A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD96313D-D274-49D1-9263-8533ADB28204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD96313D-D274-49D1-9263-8533ADB28204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD96313D-D274-49D1-9263-8533ADB28204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD96313D-D274-49D1-9263-8533ADB28204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
