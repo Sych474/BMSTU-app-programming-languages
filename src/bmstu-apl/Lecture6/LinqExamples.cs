@@ -103,7 +103,7 @@ public class LinqExamples
         var single = actions.Single(); // exception
 
         defaultAction = actions.SingleOrDefault(); // exception
-        defaultAction = actions.SingleOrDefault(x => string.IsNullOrWhiteSpace(x.ActionText)); null 
+        defaultAction = actions.SingleOrDefault(x => string.IsNullOrWhiteSpace(x.ActionText)); 
 
         var numbers = new List<int>() { 1, 3, 2, 1};
 
