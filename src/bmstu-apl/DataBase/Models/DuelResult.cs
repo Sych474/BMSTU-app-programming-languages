@@ -12,5 +12,7 @@ public class DuelResult
     
     public Character Receiver { get; set; }
 
-    public override string ToString() => $"{ChallengerId} - {ReceiverId} dueled";
+    public string? Result { get; set; }
+
+    public override string ToString() => $"{ChallengerId} - {ReceiverId} dueled, result: {Result}";
 }

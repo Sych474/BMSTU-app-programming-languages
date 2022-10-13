@@ -15,7 +15,7 @@ if (!context.Characters.Any(x => x.Name == elf.Name))
     context.Characters.Add(elf);
 context.SaveChanges();
 
-var duel = new DuelResult() { ChallengerId = 1, ReceiverId = 2 };
+var duel = new DuelResult() { ChallengerId = 1, ReceiverId = 2, Result = "Ничья"};
 context.DuelResults.Add(duel);
 context.SaveChanges();
 
