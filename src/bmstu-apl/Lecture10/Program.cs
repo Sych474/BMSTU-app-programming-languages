@@ -4,8 +4,8 @@ public static class Program
 {
     public static int Main()
     {
-        TasksExamples.RunWithCancellationTokenSource();
         //TasksExamples.Run();
+        //TasksExamples.RunWithCancellationTokenSource();
         //ThreadsExample.Run();
         return 0;
     }
@@ -18,7 +18,7 @@ public static class ThreadsExample
         RunThreadsForAction(ThreadAction);
         RunThreadsForAction(ThreadActionWithInterlocked);
         RunThreadsForAction(ThreadActionWithMonitor);
-        RunThreadsForAction(ThreadActionWithLock);
+        //RunThreadsForAction(ThreadActionWithLock);
     }
 
     private static int _counter = 0;
