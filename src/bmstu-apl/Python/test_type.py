@@ -1,5 +1,4 @@
 
-
 name = "John" # type: str
 print(name)
 name = 10
