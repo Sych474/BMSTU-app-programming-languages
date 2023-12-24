@@ -2,11 +2,6 @@
 
 namespace GameModel;
 
-public interface IFightProcessor
-{
-    public Fight ProcessFight(Character attacker, Character defender);
-}
-
 public class FightProcessor : IFightProcessor
 {
     public Fight ProcessFight(Character attacker, Character defender)
