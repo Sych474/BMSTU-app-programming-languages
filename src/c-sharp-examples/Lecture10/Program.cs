@@ -6,7 +6,7 @@ public static class Program
     {
         //TasksExamples.Run();
         //TasksExamples.RunWithCancellationTokenSource();
-        //ThreadsExample.Run();
+        ThreadsExample.Run();
         return 0;
     }
 }

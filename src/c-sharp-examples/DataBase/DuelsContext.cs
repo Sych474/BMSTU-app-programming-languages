@@ -30,9 +30,9 @@ public class DuelsContext : DbContext
 
         base.OnModelCreating(modelBuilder);
     }
-
+    
     public DuelsContext() : base(
-        GetOptions("User ID=postgres;Password=postgres;Server=localhost;Port=5432;Database=DuelsDb"))
+        GetOptions("User ID=postgres;Password=зщыепкуы;Server=localhost;Port=5432;Database=DuelsDb"))
     {
     }
 
