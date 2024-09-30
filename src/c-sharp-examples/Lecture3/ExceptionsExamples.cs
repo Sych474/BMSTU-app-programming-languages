@@ -39,7 +39,7 @@ public partial class CallExample
         {
             Console.WriteLine("Filtered OutOfMemoryException was thrown");
         }
-        catch (OutOfMemoryException e)
+        catch (OutOfMemoryException)
         {
             Console.WriteLine("Other OutOfMemoryException was thrown");
         }
