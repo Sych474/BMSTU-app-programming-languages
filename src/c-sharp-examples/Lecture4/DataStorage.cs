@@ -1,4 +1,4 @@
-﻿namespace Lecture4;
+﻿namespace Library;
 
 public interface IDataStorage<T>
 {

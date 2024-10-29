@@ -1,7 +1,7 @@
-using Lecture4;
+using Library;
 using Moq;
 
-namespace Lecture4Tests;
+namespace LibraryTests;
 
 public class StatisticsServiceTests
 {

@@ -1,38 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{3A7F19A1-8A64-4EED-9E96-8D2AFEB59FE6}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{3A7F19A1-8A64-4EED-9E96-8D2AFEB59FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseConstructions", "BaseConstructions\BaseConstructions.csproj", "{1DECC23C-4221-457C-8E82-8AF63015D34E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseConstructions", "BaseConstructions\BaseConstructions.csproj", "{1DECC23C-4221-457C-8E82-8AF63015D34E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture2", "Lecture2\Lecture2.csproj", "{A5032DE6-B47D-4BF4-BB9E-AE5EA9CF405C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture2", "Lecture2\Lecture2.csproj", "{A5032DE6-B47D-4BF4-BB9E-AE5EA9CF405C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture3", "Lecture3\Lecture3.csproj", "{20F6C55F-7065-4DCA-8B75-02E908EEF6C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture3", "Lecture3\Lecture3.csproj", "{20F6C55F-7065-4DCA-8B75-02E908EEF6C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture4", "Lecture4\Lecture4.csproj", "{FAEEC30F-B411-473C-A1D3-E6CFEE15E32C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Lecture4\Library.csproj", "{FAEEC30F-B411-473C-A1D3-E6CFEE15E32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture4Tests", "Lecture4Tests\Lecture4Tests.csproj", "{EE999920-0909-496F-8F92-A398BEF07ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTests", "Lecture4Tests\LibraryTests.csproj", "{EE999920-0909-496F-8F92-A398BEF07ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveDemoTests", "LiveDemoTests\LiveDemoTests.csproj", "{C3237C34-50BC-4B04-9960-9F85B7EC96A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveDemoTests", "LiveDemoTests\LiveDemoTests.csproj", "{C3237C34-50BC-4B04-9960-9F85B7EC96A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture5", "Lecture5\Lecture5.csproj", "{DD96313D-D274-49D1-9263-8533ADB28204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture5", "Lecture5\Lecture5.csproj", "{DD96313D-D274-49D1-9263-8533ADB28204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture6", "Lecture6\Lecture6.csproj", "{1F28F9FE-70E9-43A7-838B-A4A4E782A3C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture6", "Lecture6\Lecture6.csproj", "{1F28F9FE-70E9-43A7-838B-A4A4E782A3C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{10A705AE-0F15-4B04-B8AB-23824EDC5DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBase", "DataBase\DataBase.csproj", "{10A705AE-0F15-4B04-B8AB-23824EDC5DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuelsApp", "DuelsApp\DuelsApp.csproj", "{AEC75976-B4F8-4691-9FEF-08FDAA8BCB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuelsApp", "DuelsApp\DuelsApp.csproj", "{AEC75976-B4F8-4691-9FEF-08FDAA8BCB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture10", "Lecture10\Lecture10.csproj", "{1E845876-984D-4D96-977C-B5F1A6CC59B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture10", "Lecture10\Lecture10.csproj", "{1E845876-984D-4D96-977C-B5F1A6CC59B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{A03B7356-8ADF-4254-946F-A559C06A1E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameModel", "GameModel\GameModel.csproj", "{5DFB3DAD-4594-4182-AB5C-27B506A2D863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameModel", "GameModel\GameModel.csproj", "{5DFB3DAD-4594-4182-AB5C-27B506A2D863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDatabase", "GameDatabase\GameDatabase.csproj", "{AB339386-C17B-4E05-B5BE-3665BCEB3301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameDatabase", "GameDatabase\GameDatabase.csproj", "{AB339386-C17B-4E05-B5BE-3665BCEB3301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{55DFA1ED-F663-42CB-B99F-EED6EA1D6DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", "{55DFA1ED-F663-42CB-B99F-EED6EA1D6DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{1859719A-1706-4E18-8203-ABFBD98625A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{1859719A-1706-4E18-8203-ABFBD98625A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +107,9 @@ Global
 		{1859719A-1706-4E18-8203-ABFBD98625A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1859719A-1706-4E18-8203-ABFBD98625A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1859719A-1706-4E18-8203-ABFBD98625A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5DFB3DAD-4594-4182-AB5C-27B506A2D863} = {A03B7356-8ADF-4254-946F-A559C06A1E7A}
